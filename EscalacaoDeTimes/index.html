@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Roboto+Mono:wght@300&&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Escalação de Times</title>
+  </head>
+  <body>
+    <h1>Escalar Jogador</h1>
+    <section id="escalarJogador">
+      <label for="posicaoJogador">Posição </label>
+      <input type="text" name="posicaoJogador" id="posicaoJogador" />
+      <label for="nomeJogador">Nome </label>
+      <input type="text" name="nomeJogador" id="nomeJogador" />
+      <label for="numeroJogador">Numero da Camisa</label>
+      <input type="text" name="numeroJogador" id="numeroJogador" />
+      <button id="escalarJogagor" onclick="AdicionarJogador()">Escalar</button>
+    </section>
+
+    <h2>Escalação</h2>
+    <section id="listaJogador">
+      <ul id="escalacao"></ul>
+    </section>
+
+    <h1>Remover Jogador</h1>
+    <section id="removerJogador">
+      <label for="jogadorRemovido">Numero do Jogador</label>
+      <input type="text" name="jogadorRemovido" id="jogadorRemovido" />
+      <button id="remover" onclick="RemoverJogador()">Remover</button>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

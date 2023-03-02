@@ -1,0 +1,47 @@
+h1,
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 22px;
+}
+
+#escalarJogador,
+#removerJogador {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Mono", monospace;
+}
+
+input {
+  padding: 5px 10px;
+  margin: 5px 0;
+  width: 200px;
+}
+
+button {
+  background-color: #552583;
+  border: 2px solid #fdb927;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: auto;
+  padding: 10px 25px;
+  width: 200px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+#listaJogador {
+  font-family: "Roboto Mono", monospace;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
